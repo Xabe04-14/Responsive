@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #container{
+        background-color: rgb(182, 239, 221);
+        
+
+    }
+    .header{
+        width:100%;
+        background-color: green;
+    }
+    .content{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap:20px;
+        background-color: rgb(182, 239, 221);
+    }
+    img{
+       width: 350px;
+       height: 200px;
+    }
+    @media screen and(max-width: 767px){
+        .content{
+         
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+<body>
+    <div id="container">
+        <div class="header">
+            <h1>VTC BÁO VIỆT NAM</h1>
+            <p>Đây là một trang web!</p>
+        </div>
+        <div class="content">
+            <div class="London">
+                <h1>London</h1>
+                <p class="p1"> London là một đất nước có nhiều thành phố.</p>
+                <p class="p2">Đây là một đất nước có phong cách thời trang top 1 thế giới. 
+                   Nhiều cửa hàng thời trang nổi tiếng xuất hiện tại đây.
+                </p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStabTL_3ZyutbW-lFiy-TtAJqSazJ7IsS7RQ&s">
+            </div>
+            <div class="Paris">
+                <h1>London</h1>
+                <p class="p1"> London là một đất nước có nhiều thành phố.</p>
+                <p class="p2">Đây là một đất nước có phong cách thời trang top 1 thế giới. 
+                   Nhiều cửa hàng thời trang nổi tiếng xuất hiện tại đây.
+                </p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR21kdu8zkvJqXSGoJF_oxliHzZhO3_u1V7aw&s">
+            </div>
+            <div class="Tokyo">
+                <h1>London</h1>
+                <p class="p1"> London là một đất nước có nhiều thành phố.</p>
+                <p class="p2">Đây là một đất nước có phong cách thời trang top 1 thế giới. 
+                   Nhiều cửa hàng thời trang nổi tiếng xuất hiện tại đây.
+                </p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpVCFVYfv1vcmIlCLUUlDdb53mv5469T-qNA&s">
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
